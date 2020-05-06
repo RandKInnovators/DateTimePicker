@@ -1,0 +1,37 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"outDir": "build/",
+		"types": ["react", "react-dom", "material-ui"],
+		"plugins": [
+			{
+				"name": "typescript-tslint-plugin"
+			}
+		],
+		"lib": ["es6", "dom", "dom.iterable", "esnext"],
+		"sourceMap": true,
+		"allowJs": true,
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": false,
+		"preserveConstEnums": false,
+		"noEmit": true,
+		"jsx": "preserve",
+		"experimentalDecorators": true,
+		"importHelpers": true,
+		"noEmitHelpers": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"noImplicitAny": true,
+		"noImplicitThis": true,
+		"strictNullChecks": true,
+		"typeRoots": ["./src/typings"]
+	},
+	"extends": "./jsconfig.path.json"
+}
