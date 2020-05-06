@@ -2,6 +2,7 @@
 	"name": "react-custom-datetime",
 	"version": "0.0.2",
 	"private": false,
+	"main": "src/index.tsx",
 	"dependencies": {
 		"@testing-library/jest-dom": "^4.2.4",
 		"@testing-library/react": "^9.3.2",
@@ -18,7 +19,6 @@
 	"devDependencies": {
 		"@types/node": "^13.13.5"
 	},
-	"homepage": "https://github.com/RandKInnovators/DateTimePicker#readme",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/RandKInnovators/DateTimePicker.git"
